@@ -2,6 +2,15 @@
 
 Đây là kho lưu trữ cho dự án phát hiện Clickbait tiếng Việt bằng mô hình Multi-Attention kết hợp (PhoBERT-base cho Content và Character-Level Transformer cho Style).
 
+## 📺 Demo Trực Quan (Application Demo)
+
+Dưới đây là video demo hoạt động của ứng dụng / extension phát hiện tin giả, clickbait trên VnExpress:
+
+https://github.com/user-attachments/assets/d76b3360-78d6-4d99-8935-965c2635303c
+
+> [!TIP]
+> Bạn có thể xem chi tiết trao đổi và feedback tại [GitHub Issue #1](https://github.com/CaoAnhNato/ClickBait_ICD/issues/1).
+
 ## 🚀 Hướng dẫn cài đặt và chạy (Getting Started)
 
 Làm theo các bước dưới đây để thiết lập môi trường và chạy thử mô hình trên máy cục bộ hoặc máy ảo (VM/Server).
