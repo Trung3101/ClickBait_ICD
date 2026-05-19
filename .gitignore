@@ -19,6 +19,13 @@ best_model/
 
 # User specific exclusions
 test/
+skills-lock.json
+improve.docx
+wandb/
+mlruns/
+implement/
+.agents/
+app/video_test.mp4
 
 # Ablation framework
 data/processed/evidence/

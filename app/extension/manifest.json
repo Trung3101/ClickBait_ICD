@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "VnExpress Clickbait Predictor",
+  "version": "1.0.0",
+  "description": "Predict clickbait probability for VnExpress headlines using a local FastAPI server.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://vnexpress.net/*",
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://vnexpress.net/*"],
+      "js": ["content-core.js", "content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
